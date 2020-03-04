@@ -13,6 +13,6 @@ class Handler
      * @return
      */
     public function handle($data) {
-        return $data;
+        return "<h1>HELLO</h1>";
     }
 }
