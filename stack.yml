@@ -3,8 +3,8 @@ provider:
   name: openfaas
   gateway: https://faas.testapps.stack.it.ntnu.no
 functions:
-  java-fn:
-    lang: java8
-    handler: ./java-fn
-    image: havarde/java-fn:latest
+  php-fn:
+    lang: php7
+    handler: ./php-fn
+    image: havardei/php-fn:latest
 
