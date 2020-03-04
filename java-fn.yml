@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: https://faas.testapps.stack.it.ntnu.no
+functions:
+  java-fn:
+    lang: java8
+    handler: ./java-fn
+    image: java-fn:latest
+
