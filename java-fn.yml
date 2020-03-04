@@ -6,5 +6,5 @@ functions:
   java-fn:
     lang: java8
     handler: ./java-fn
-    image: java-fn:latest
+    image: havarde/java-fn:latest
 
